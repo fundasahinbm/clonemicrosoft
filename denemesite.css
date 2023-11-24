@@ -1,0 +1,108 @@
+body {
+    margin: 0 auto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 1326px;
+    height: 54px;
+    position: relative;
+    gap: 5px;
+
+}
+
+.slide img{
+  
+    display: flex;
+    width: 1326px;
+    position: relative;
+      
+  
+}
+.slide h1{
+    margin:auto;
+    position: absolute;
+    bottom: 300px;
+    left: 120px;
+    width: 200px;
+   font: 2em sans-serif;
+    
+}
+.slide p{
+    position: absolute;
+    bottom: 250px;
+    left: 120px;
+    width: 400px;
+    font: 1em sans-serif;
+}
+.buton1{
+    position: absolute;
+    background-color: blue;
+    font-size: large;
+    bottom: 200px;
+    left: 120px;
+    width: 250px;
+    
+
+
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    width: 108px;
+    height: 40px;
+}
+
+.logo img {
+    width: 108px;
+}
+
+.content {
+    position: absolute;
+    left: 160px;
+}
+.ikon-end {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+}
+
+
+/*
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .logo img {
+        width: 800px;
+    }
+
+}*/
+
+
